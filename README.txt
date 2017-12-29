@@ -1,8 +1,8 @@
-Project: Tournament Results Database
+## Project: Tournament Results Database
 
-Codes are taken from instructors notes, github and websites.
+#### Codes are taken from instructors notes, github and websites.
 
-Project Description:
+## Project Description:
 
 Developed a database schema to store the game matches between
 players. Wrote code to query this data and determined the winners
@@ -23,7 +23,7 @@ Code and database only support a single tournament at a time.
 When I want to run a new tournament, all the game records from the 
 previous tournament will be deleted.
 
-Set up:
+## Set up:
  
 Vagrant from vagrantup.com.
 VirtualBox from virtualbox.org. 
@@ -31,7 +31,7 @@ Git from git-scm.com.
 Used Git Bash terminal.
 
 
-Code Templates:
+## Code Templates:
 
 tournament.sql, tournament.py, and tournament_test.py.
 •	tournament.sql is the database schema, in the form of SQL create table commands.
@@ -112,7 +112,7 @@ Run a project:
 
 In the command line type: python tournament_test.py.
 
-Output:
+## Output:
 
 1. countPlayers() returns 0 after initial deletePlayers() execution.
 2. countPlayers() returns 1 after one player is registered.
